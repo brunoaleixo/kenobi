@@ -4,3 +4,5 @@ do
 	ping -c2 192.168.99.$IP && echo "OK 192.168.99.$IP"
 	||echo "FAIL - 192.168.99.$IP"
 done
+
+cowsay -f tux  "Script terminado"
